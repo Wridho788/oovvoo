@@ -5,10 +5,22 @@
     android:layout_height="match_parent"
     tools:context=".fragment.transfer.Favorit">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_baseline_local_activity_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anda belum punya daftar favorit"
+            android:textAlignment="center" />
+    </LinearLayout>
 
 </FrameLayout>

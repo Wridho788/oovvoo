@@ -9,7 +9,8 @@ import androidx.fragment.app.Fragment;
 
 import dev.nakive.oovvoo.R;
 
-public class Favorit extends Fragment {
+public class RekeningBank extends Fragment {
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,6 @@ public class Favorit extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_favorit, container, false);
+        return inflater.inflate(R.layout.fragment_rekening_bank, container, false);
     }
 }
