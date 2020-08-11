@@ -13,15 +13,17 @@
         <activity android:name=".activity.History" />
         <activity android:name=".activity.Transfer" />
         <activity android:name=".activity.TopUp" />
-        <activity android:name=".pin_auth" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+        <activity android:name=".pin_auth">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
         </activity>
     </application>
 
