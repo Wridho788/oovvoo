@@ -86,12 +86,12 @@
         </androidx.cardview.widget.CardView>
 
         <Button
-            android:id="@+id/btn_next_transfer"
+            android:id="@+id/btn_transfer_member_ovo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/colorPrimary"
-            android:text="Lanjutkan"
+            android:text="Top Up"
             android:textAllCaps="false"
             android:textColor="@color/colorWhite" />
     </LinearLayout>

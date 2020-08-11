@@ -11,7 +11,7 @@ import java.util.List;
 
 import dev.nakive.oovvoo.model.user;
 
-class DatabaseHelper extends SQLiteOpenHelper {
+public class DatabaseHelper extends SQLiteOpenHelper {
 
     // Database Version
     private static final int DATABASE_VERSION = 1;
@@ -203,11 +203,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
         cursor.close();
         db.close();
 
-        if (cursorCount > 0) {
-            return true;
-        }
-
-        return false;
+        return cursorCount > 0;
     }
 
     /**
@@ -248,10 +244,6 @@ class DatabaseHelper extends SQLiteOpenHelper {
 
         cursor.close();
         db.close();
-        if (cursorCount > 0) {
-            return true;
-        }
-
-        return false;
+        return cursorCount > 0;
     }
 }
